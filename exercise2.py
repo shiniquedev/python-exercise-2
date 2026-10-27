@@ -35,7 +35,7 @@ print("Your grade is:", grade)
 # Question 4: Combining Operators and Conditionals 
 num1 = 10
 num2 = 5
-operation = "+"
+operation = input("Enter an operation (+, -, *, /): ")-
 if operation == "+":
   result = num1 + num2
 elif operation == "-":
